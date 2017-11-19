@@ -21,5 +21,20 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            comboBox1.Items.Clear();
+            int n;
+            Class1 c1 = new Class1();
+            Class2 c2 = new Class2();
+            n = c1.random();
+            label1.Text = n.ToString();
+            for(int i=2 ;i<n ; i++)
+            {
+                if (c2.hihi(i) == true)
+                    comboBox1.Items.Add(i);
+            }
+        }
     }
 }

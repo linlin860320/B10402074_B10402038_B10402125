@@ -8,7 +8,7 @@ namespace WindowsFormsApplication1
 {
     class Class2
     {
-        bool hihi(int n)
+        public bool hihi(int n)
         {
             bool f=true;
               for (int i=2;i<=n-1;i++) 
