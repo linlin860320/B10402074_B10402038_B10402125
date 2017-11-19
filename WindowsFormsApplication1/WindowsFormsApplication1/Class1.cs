@@ -8,5 +8,10 @@ namespace WindowsFormsApplication1
 {
     class Class1
     {
+        int random()
+        {
+            Random crandom = new Random();
+            return crandom.Next(99);
+        }
     }
 }
